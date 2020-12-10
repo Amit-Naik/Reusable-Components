@@ -6,6 +6,18 @@ title: 'reusableComponents/Arrow',
 component: Arrow,
 };
 
-export const Arrow_1 = () => (
+export const Arrow_Up = () => (
+<Arrow />
+);
+
+export const Arrow_Right = () => (
 <Arrow direction="arrowRight"/>
 );
+
+export const Arrow_Down = () => (
+<Arrow direction="arrowDown"/>
+);
+
+export const Arrow_Left = () => (
+    <Arrow direction="arrowLeft"/>
+    );
