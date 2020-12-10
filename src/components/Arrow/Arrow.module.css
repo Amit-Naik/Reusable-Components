@@ -1,0 +1,24 @@
+.Arrow {
+    padding: 20px;
+    margin: 10px;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    width: 1px;
+    height: 1px;
+}
+
+.arrowUp {
+    transform: rotate(-45deg);
+}
+
+.arrowDown {
+    transform: rotate(135deg);
+}
+
+.arrowRight {
+    transform: rotate(45deg);
+}
+
+.arrowLeft {
+    transform: rotate(-135deg);
+}
