@@ -10,8 +10,30 @@
     color: black;
     border: 1px solid black;
     cursor: pointer;
-    min-width: 180px;
+    width: 180px;
+    max-height: 40px;
     padding: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+/* .box {
+    display: flex;
+    flex-direction: row;
+} */
+
+.arrowUpSize {
+    position: absolute;
+    right: -12px;
+    top: -6px;
+    transform: scale(0.3);
+}
+
+.arrowDownSize {
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    transform: scale(0.3);
 }
 
 .dropDownContent {

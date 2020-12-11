@@ -11,13 +11,13 @@ export const Arrow_Up = () => (
 );
 
 export const Arrow_Right = () => (
-<Arrow direction="arrowRight"/>
+<Arrow direction="Right"/>
 );
 
 export const Arrow_Down = () => (
-<Arrow direction="arrowDown"/>
+<Arrow direction="Down"/>
 );
 
 export const Arrow_Left = () => (
-    <Arrow direction="arrowLeft"/>
+    <Arrow direction="Left"/>
     );

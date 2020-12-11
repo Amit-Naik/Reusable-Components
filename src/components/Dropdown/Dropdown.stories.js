@@ -1,5 +1,8 @@
 import Dropdown from './Dropdown';
-import React from 'react';
+import React, {useState} from 'react';
+import months from '../../months'
+
+
 
 export default {
 title: 'reusableComponents/Dropdown',
@@ -7,5 +10,6 @@ component: Dropdown,
 };
 
 export const Dropdown_1 = () => (
-<Dropdown />
+    
+<Dropdown months={months}/>
 );

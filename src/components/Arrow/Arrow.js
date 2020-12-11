@@ -3,20 +3,23 @@ import PropTypes from 'prop-types';
 import styles from './Arrow.module.css';
 import classNames from 'classnames';
 
-const Arrow = ({direction = "arrowUp"}) => {
+const Arrow = ({direction = "Up"}) => {
     let arrowDirector = null;
-        if(direction === "arrowUp") {
+        if(direction === "Up") {
             arrowDirector = classNames(styles.Arrow, styles.arrowUp);
-        } else if(direction === "arrowDown") {
+        } else if(direction === "Down") {
             arrowDirector = classNames(styles.Arrow, styles.arrowDown);
-        } else if(direction === "arrowRight") {
+        } else if(direction === "Right") {
             arrowDirector = classNames(styles.Arrow, styles.arrowRight);
-        } else {
+        } else if(direction === "Left"){
             arrowDirector = classNames(styles.Arrow, styles.arrowLeft);
         }
 return (
-<div className={arrowDirector}>
-</div>
+    <div className={styles.arrowContainer}>
+        <div className={arrowDirector}>
+        </div>
+    </div>
+
 );
 };
 

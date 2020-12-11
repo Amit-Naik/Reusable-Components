@@ -8,11 +8,11 @@ const months = [
     id:2
     },
     {
-    month: 'march',
+    month: 'mar',
     id:3
     },
     {
-    month: 'april',
+    month: 'apr',
     id:4
     },
     {
@@ -20,11 +20,11 @@ const months = [
     id:5
     },
     {
-    month: 'june',
+    month: 'jun',
     id:6
     },
     {
-    month: 'july',
+    month: 'jul',
     id:7
     },
     {
